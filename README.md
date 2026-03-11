@@ -23,6 +23,15 @@ Built with **React, Node.js, Express, MongoDB, Tailwind CSS, HTML, JavaScript, a
 
 ## 🖼 Screenshots
 
+**Login Screen**  
+![login](front-end\screenshot.login.png)
+
+**Dashboard / Employee List**  
+
+
+**Task Management**  
+
+
 ---
 
 ## 🛠 Technologies Used
