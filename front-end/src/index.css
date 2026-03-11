@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.showheader {
+    display: flex;
+    padding-left: 1em;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 4px solid    rgb(235, 233, 233);
+    align-items: center;
+}
+
+
+.showheader1 {
+    display: flex;
+    padding-left: 1em;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+}
+
+.datediv{
+    @apply py-4 border-b-4 border-gray-100
+}
+
+.navlink{
+    @apply text-xl text-white py-2 font-semibold mt-5
+}
+
+.navlink:hover{
+    @apply bg-gray-50 text-black w-[9em] rounded-lg ps-2 
+}
+
+.showheadertxt{
+    @apply text-2xl font-semibold    
+}
+
+.addbtn{
+    @apply ms-4 bg-gray-800 w-16 h-7 text-white rounded-lg ;
+}
+
+.addbtn:hover{
+    box-shadow: 0px 2px 10px rgb(139, 130, 193);
+}
+
+.searchlabel{
+    @apply ms-[52%]; 
+}
+
+
+.searchlabel1{
+    @apply ms-[50%]; 
+}
+
+.searchlabela{
+    @apply ms-[56%]; 
+}
+
+.searchlabel2{
+    @apply ms-[64%]; 
+}
+
+.searchinput{
+  @apply  rounded-xl w-[20%] ms-1 p-2 shadow-sm focus:outline-none  focus:ring-2  focus:ring-slate-300;
+}
+
+.tbdiv{
+    @apply ms-3 mt-3
+}
+
+.table{
+    @apply w-[80vw] 
+}
+
+.th{
+ @apply text-left bg-white text-black font-semibold py-4 text-xl border-b-4 border-gray-100
+}
+
+.td{
+    @apply py-4 text-xl font-semibold;
+}
+tr:nth-child(even){
+  @apply bg-gray-200;
+}
+
+.edit{
+    @apply bg-gray-500 w-[3em] me-1 rounded-md  h-8
+}
+.edit:hover {
+    box-shadow: 0px 4px 20px rgb(203, 201, 214);
+    transform: translateY(-3px);  
+    transition: all 0.2s ease;  
+}
+
+.delete{
+    @apply bg-gray-200 w-[4em] rounded-md  h-8
+    
+}
+
+.delete:hover{
+    box-shadow: 0px 4px 20px rgb(203, 201, 214);
+    transform: translateY(-3px);  
+    transition: all 0.2s ease;
+}
+
+.formdiv{
+    @apply bg-white mt-5 w-[50vw] ms-[10%] h-[70vh] overflow-y-auto;
+}
+.form-grp{
+    @apply flex items-center py-5  
+}
+.form-grp label{
+    @apply text-xl w-40 ms-6
+}
+
+.form-grp input{
+    @apply w-[20em] h-[2.5em] rounded-md p-1 bg-gray-200 focus:outline-none
+}
+
+.Atninput{
+    @apply w-[20em] h-[2.5em] rounded-md p-1 bg-gray-200 focus:outline-none
+}
+
+
+.form-grp select{
+    @apply w-[20em] rounded-md p-1 bg-gray-200 focus:outline-none
+}
+
+.form-grp textarea{
+    @apply w-[30em] h-[6em] rounded-md p-1 bg-gray-200 focus:outline-none
+
+}
+.form-grp input:hover{
+    box-shadow: 0px 2px 10px rgb(203, 201, 214);
+}
+.submit{
+    @apply bg-gray-800 text-white ms-[33%] w-[8em] h-8 rounded-md mb-5 
+}
+
+.submit1{
+    @apply bg-gray-800 text-white mt-4  w-[8em] h-8 rounded-md mb-5 
+}
+
+
+.submit:hover{
+    box-shadow: 0px 2px 10px rgb(139, 130, 193);
+}
+
+
+.submit1:hover{
+    box-shadow: 0px 2px 10px rgb(139, 130, 193);
+}
+
+
+.task{
+    @apply ms-3 mt-4 rounded-xl bg-white items-center w-[80vw]
+}
+.task:hover{
+    box-shadow: 0px 2px 10px rgb(214, 213, 225);
+}
+.progdiv{
+    @apply bg-white mt-7 w-[70vw] h-[6em]  shadow-sm  rounded-xl
+}
+
+.progdiv:hover{
+    box-shadow: 0px 5px 20px rgb(186, 179, 206);
+}
+
+.dashdiv{
+    @apply ms-3 mt-4 w-[15em] h-[8em] rounded-xl mb-6 shadow-xl
+}
+
+.dashdiv div{
+    @apply ms-4 mt-4 text-xl font-semibold 
+}
+
+.sdiv{
+    @apply bg-gray-50 shadow-md h-32 rounded-md
+}
+.sdiv label{
+    @apply font-semibold text-xl p-2
+}
+
+.sdiv p{
+    @apply  text-lg p-2
+}
+
+.uinput{
+    @apply   ms-2 bg-gray-200 p-2 mt-2 w-[18em] rounded-md
+}
+
+.radiobtn{
+ @apply ms-2 bg-gray-200 rounded-lg px-2 py-[2px] text-sm
+}
+
+.radiobtn:hover{
+ box-shadow: 0px 2px 10px rgb(139, 130, 193);   
+}
