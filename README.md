@@ -24,7 +24,7 @@ Built with **React, Node.js, Express, MongoDB, Tailwind CSS, HTML, JavaScript, a
 ## 🖼 Screenshots
 
 **Login Screen**  
-![login](front-end\screenshot.login.png)
+front-end/screenshot/Screenshot 2026-03-11 154633.png
 
 **Dashboard / Employee List**  
 
