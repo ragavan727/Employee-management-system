@@ -25,11 +25,23 @@ Built with **React, Node.js, Express, MongoDB, Tailwind CSS, HTML, JavaScript, a
 
 **Login Screen**  
 ![login](https://github.com/ragavan727/Employee-management-system/blob/378d881566fd1a9980b15bfb21f1411bbb24b4e6/front-end/screenshot/Screenshot%202026-03-11%20154633.png)
-**Dashboard / Employee List**  
+**Dashboard**  
+![dashboard](https://github.com/ragavan727/Employee-management-system/blob/1c452f709b08cf5411cae46da8c9ba010253de10/front-end/screenshot/Screenshot%202026-03-11%20154711.png)
 
+**Employee screen**  
+![employe](https://github.com/ragavan727/Employee-management-system/blob/1c452f709b08cf5411cae46da8c9ba010253de10/front-end/screenshot/Screenshot%202026-03-11%20154748.png)
 
-**Task Management**  
+**Task screen**
+![employe](https://github.com/ragavan727/Employee-management-system/blob/1c452f709b08cf5411cae46da8c9ba010253de10/front-end/screenshot/Screenshot%202026-03-11%20155025.png)
 
+**ADD Task**
+![employe](https://github.com/ragavan727/Employee-management-system/blob/1c452f709b08cf5411cae46da8c9ba010253de10/front-end/screenshot/Screenshot%202026-03-11%20155048.png)
+
+**Task Management**
+![employe](https://github.com/ragavan727/Employee-management-system/blob/1c452f709b08cf5411cae46da8c9ba010253de10/front-end/screenshot/Screenshot%202026-03-11%20160050.png)
+
+**User credential change**
+![employe](https://github.com/ragavan727/Employee-management-system/blob/1c452f709b08cf5411cae46da8c9ba010253de10/front-end/screenshot/Screenshot%202026-03-11%20154729.png)
 
 ---
 
