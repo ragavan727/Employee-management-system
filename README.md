@@ -24,8 +24,7 @@ Built with **React, Node.js, Express, MongoDB, Tailwind CSS, HTML, JavaScript, a
 ## 🖼 Screenshots
 
 **Login Screen**  
-front-end/screenshot/Screenshot 2026-03-11 154633.png
-
+https://github.com/ragavan727/Employee-management-system/blob/378d881566fd1a9980b15bfb21f1411bbb24b4e6/front-end/screenshot/Screenshot%202026-03-11%20154633.png
 **Dashboard / Employee List**  
 
 
