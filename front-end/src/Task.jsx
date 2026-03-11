@@ -97,7 +97,7 @@ function Task(){
         <>
             <div className="showheader">
                 <h2 className="showheadertxt">Task Details</h2><button className="addbtn" onClick={AddTask}>{status}</button>
-                <label className="searchlabela">Search:</label><input onChange={(e) => setserach(e.target.value)} className="searchinput" type="text" name="" id="" />
+                {status == "ADD" ? <><label className="searchlabela">Search:</label><input onChange={(e) => setserach(e.target.value)} className="searchinput" type="text" name="" id="" /> </>: null }
             </div>
             <div className="w-[80vw] h-[70vh]">
                 {status == "ADD" ?

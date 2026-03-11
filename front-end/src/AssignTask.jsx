@@ -165,7 +165,7 @@ function AssginTask(){
     <>
        <div className="showheader">
                { state == 0 ? <h2 className="showheadertxt">{value}</h2> : (<><h2 className="showheadertxt">{value}</h2><button className="addbtn" onClick={stask}>show</button></>) }
-               <label className="searchlabel2">Search:</label><input onChange={(e)=> setsearch(e.target.value)} className="searchinput" type="text" name="" id="" />
+          {state == 0 ? <> <label className="searchlabel2">Search:</label><input onChange={(e)=> setsearch(e.target.value)} className="searchinput" type="text" name="" id="" /> </> : null} 
             </div>
         
         <div className="w-[80vw] h-[70vh]">

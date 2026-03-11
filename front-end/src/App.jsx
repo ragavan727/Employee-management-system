@@ -5,7 +5,6 @@ import Employee from "./Employee"
 import Task from "./Task"
 import TaskManagemnt from "./Taskmanagemnet"
 import AssginTask from "./AssignTask"
-import Accounts from "./Accouts"
 import UserLogin from "./Login"
 import Show from "./Showemp"
 import Showtask from "./Showtask"
@@ -25,7 +24,6 @@ function App() {
             <Route path="Employee" element={<Employee />} />
             <Route path="Task" element={<Task />} />
             <Route path="TaskManagemnt" element={<TaskManagemnt />} />
-            <Route path="Accounts" element={<Accounts />} />
             <Route path="changelogin" element={<Changelogin />} />
             <Route path="Assgin/:value" element={<AssginTask/>} />
             <Route path="Show/:id" element={<Show/>} />

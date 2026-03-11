@@ -127,7 +127,7 @@ function Employee(){
         <>
             <div className="showheader">
                 <h2 className="showheadertxt">Employe Details</h2><button className="addbtn" onClick={Addemp}>{status}</button>
-                <label className="searchlabel">Search:</label><input onChange={(e) => setsearch(e.target.value)} className="searchinput" type="text" name="" id="" />
+              {status == "ADD" ?  <><label className="searchlabel">Search:</label><input onChange={(e) => setsearch(e.target.value)} className="searchinput" type="text" name="" id="" /> </>: null} 
             </div>
                 {status == "ADD" ?
                 empdata.filter( emp => emp.username.toLowerCase().includes(search.toLowerCase())
