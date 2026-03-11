@@ -57,10 +57,13 @@ Built with **React, Node.js, Express, MongoDB, Tailwind CSS, HTML, JavaScript, a
 
 # Backend
 cd backend
-npm install
-npm run dev
+npm install i express
+npm install i nodemon
+npm install i cors
+npm install i mongoose
 
 # Frontend
 cd frontend
+npm run dev
 npm install
 npm start
